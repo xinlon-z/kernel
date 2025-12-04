@@ -9,6 +9,9 @@
 #include "phy-qcom-qmp-qserdes-com.h"
 #include "phy-qcom-qmp-qserdes-txrx.h"
 
+#include "phy-qcom-qmp-qserdes-com-v2.h"
+#include "phy-qcom-qmp-qserdes-txrx-v2.h"
+
 #include "phy-qcom-qmp-qserdes-com-v3.h"
 #include "phy-qcom-qmp-qserdes-txrx-v3.h"
 
@@ -57,6 +60,8 @@
 #include "phy-qcom-qmp-pcs-v7.h"
 
 #include "phy-qcom-qmp-pcs-v8.h"
+
+#include "phy-qcom-qmp-pcs-v8_50.h"
 
 /* QPHY_SW_RESET bit */
 #define SW_RESET				BIT(0)
